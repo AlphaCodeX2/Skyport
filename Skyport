@@ -49,7 +49,7 @@ echo_message "* Installing Files"
 # Create directory, clone repository, and install files
 mkdir -p panel5
 cd panel5 || { echo_message "Failed to change directory to skyport"; exit 1; }
-git clone https://github.com/AlphaCodeX2/skyport-tw-panel
+git clone https://github.com/achul123/panel5.git
 cd panel5 || { echo_message "Failed to change directory to panel"; exit 1; }
 npm install
 
@@ -72,4 +72,4 @@ echo_message "* Skyport Installed and Started on Port 3001"
 
 # Clear the screen after finishing
 clear
-echo "* Made by AlphaCodeX"
+echo "* Made by Jishnu"
